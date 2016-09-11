@@ -1,0 +1,88 @@
+html {
+	background: #F2F2F2;
+}
+
+.drone__header {
+	width: 100%;
+	height: 400px;
+	margin-top: 4em;
+	padding-top: 3em;
+	color: #fff;
+	background: #37474F;
+
+}
+	.drone__header__title {
+	}
+
+.drone__navbar {
+	z-index: 2;
+	height: 4em;
+	position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+	margin: 0;
+    padding: 0;
+    background: #263238;
+    overflow: hidden;    
+}
+	.drone__navbar__options {
+		list-style-type: none;
+	    padding: 0;
+	    margin: 0 30% 0 30%; 
+	    overflow: hidden;	    
+	}
+		.drone__navbar__title {
+			margin: 0;
+			float: left;
+			font-size: 1.5em;
+		}
+		.drone__navbar__option {
+			margin: 5px 0 0 0;
+			float: right;
+		}
+		.drone__navbar__option__link {
+		    display: block;
+		    color: white;
+		    text-align: center;
+		    padding: 14px 16px;
+		    text-decoration: none;
+		}
+
+.drone__card
+{
+	width: 100%;
+	height: 400px;
+	background: #fff;
+	border-radius: 0.5em;
+	-webkit-box-shadow: 0px 5px 32px 2px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 5px 32px 2px rgba(0,0,0,0.75);
+	box-shadow: 0px 5px 32px 2px rgba(0,0,0,0.75);
+}
+	.drone__card--offset {
+		margin-top: -200px;		
+	}
+	.drone__card__header
+	{
+		width: 100%;
+		height: 100px;
+		border-color: #222;
+		border-bottom: 1px solid #CFD8DC; 
+		background: #F2F2F2;
+	}
+
+
+@media screen and (max-width: 600px){
+	.drone__navbar {
+		height: auto;
+	}
+
+    .drone__navbar__options {
+    	text-align: center;
+    }
+
+    .drone__navbar__title,
+    .drone__navbar__option {
+    	float: none;
+    }
+}

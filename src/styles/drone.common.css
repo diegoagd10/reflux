@@ -1,0 +1,42 @@
+.drone--center {
+	text-align: center;
+}
+
+.drone--middle {
+	vertical-align: middle;
+}
+
+.drone--no-margin {
+	margin: 0;
+}
+
+.drone--top--offset--small {
+	margin-top: -5em;
+}
+
+.drone__font--small {
+	font-size: 1.5em;
+}
+
+.drone__font--medium {
+	font-size: 2em;	
+}
+
+.drone__font--large {
+	font-size: 3em;
+}
+
+.drone__font--gray {
+	color: #F2F2F2;
+}
+.drone__font--dark--gray {
+	color: #A59999;
+}
+
+.drone--border--circular {
+	border-radius: 100px;
+}
+
+.drone--border--solid--dark--gray {
+	border: 1px solid #A59999;
+}
